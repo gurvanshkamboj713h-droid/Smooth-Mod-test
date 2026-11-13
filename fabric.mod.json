@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "smooth360",
+  "version": "${version}",
+  "name": "Smooth360",
+  "description": "A client-side smooth camera spin bound to Mouse Button 4.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.smooth360.Smooth360Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
