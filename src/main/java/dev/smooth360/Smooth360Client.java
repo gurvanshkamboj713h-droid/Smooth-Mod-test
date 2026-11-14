@@ -33,7 +33,7 @@ public final class Smooth360Client implements ClientModInitializer {
             return;
         }
 
-        long window = client.getWindow().getWindow();
+        long window = client.getWindow().getHandle();
         boolean buttonDown = GLFW.glfwGetMouseButton(window, GLFW.GLFW_MOUSE_BUTTON_4)
                 == GLFW.GLFW_PRESS;
 
